@@ -42,3 +42,34 @@ console.log(typeof bigNumber)
 console.log(typeof myFun)
 console.log(typeof heroes)
 console.log(typeof id)
+
+
+
+
+// ********************** MEMORY ********************
+
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myYoutubename = "Rishi.com"
+
+let anothername = myYoutubename
+anothername = "arpit.com"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rishi@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+// email same in both 
+
